@@ -1,0 +1,21 @@
+#WorkFlow
+#Should have name
+name: Hello 
+
+#On tell when the workflow run( Give indention by tab) 
+on:
+ workflow_dispatch:
+
+#Job tell what the workflow should do 
+jobs:
+  say-hello:
+    runs-on : ubuntu-latest
+    steps:
+       - name: Say hello to everyone
+        run: echo "HelLo Dosto"
+#Steps
+#Steps should be inside the job
+
+#Actions
+#Actiosn shoukd be inside the steps
+
